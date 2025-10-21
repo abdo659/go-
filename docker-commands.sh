@@ -3,7 +3,7 @@
 # Docker commands for Go Docker Demo
 # Make sure to replace 'yourusername' with your actual Docker Hub username
 
-DOCKER_IMAGE="yourusername/go-docker-demo"
+DOCKER_IMAGE="abdo659/go-docker-demo"
 TAG="latest"
 
 echo "🐳 Go Docker Demo - Docker Commands"

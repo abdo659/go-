@@ -23,10 +23,10 @@ Follow the `SETUP.md` guide to install:
 
 ```bash
 # Build the Docker image
-docker build -t yourusername/go-docker-demo:latest .
+docker build -t abdo659/go-docker-demo:latest .
 
 # Run the container
-docker run -p 8080:8080 yourusername/go-docker-demo:latest
+docker run -p 8080:8080 abdo659/go-docker-demo:latest
 
 # Test the API
 curl http://localhost:8080/health
@@ -45,9 +45,9 @@ curl http://localhost:8080/api/users
 # Login to Docker Hub
 docker login
 
-# Build and push (replace 'yourusername' with your actual username)
-docker build -t yourusername/go-docker-demo:latest .
-docker push yourusername/go-docker-demo:latest
+# Build and push
+docker build -t abdo659/go-docker-demo:latest .
+docker push abdo659/go-docker-demo:latest
 ```
 
 ### 5. Make Image Public
@@ -93,8 +93,8 @@ go-docker-demo/
 
 After completing the steps above, you should have:
 
-1. **GitHub Repository Link**: `https://github.com/yourusername/go-docker-demo`
-2. **Docker Hub Image Link**: `https://hub.docker.com/r/yourusername/go-docker-demo`
+1. **GitHub Repository Link**: `https://github.com/abdo659/go-`
+2. **Docker Hub Image Link**: `https://hub.docker.com/r/abdo659/go-docker-demo`
 
 ## ✅ Verification Checklist
 
